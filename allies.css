@@ -1,0 +1,67 @@
+@font-face {
+  font-family: BatmanFont;
+  src: url(fonts/Chopsic.otf);
+}
+
+*{
+  font-family: BatmanFont !important;
+}
+
+body{
+  background-color: black;
+}
+
+.navbar-brand{
+  padding: 0px 0px 0px 20px;
+}
+
+.navigation{
+  height: 50px;
+}
+
+.bar{
+  margin: 30px;
+}
+
+.banner{
+  height: 95vh;
+  background-image: url('images/Batman.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.banner-content{
+  height: 400px;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.banner-item{
+  padding: 30px;
+  color: black;
+}
+
+.allies{
+  display: flex;
+  flex-direction: row;
+}
+
+.allies-content{
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  margin: 13px;
+}
+
+.allies-content > img{
+  border-radius: 3px;
+  filter: drop-shadow(1px 1px 1px black);
+}
+.allies-content > p{
+  text-align: center;
+}
